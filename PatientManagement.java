@@ -164,7 +164,7 @@ public class PatientManagement {
     public static void main(String[] args) {
         WaitingList list = new WaitingList();
         System.out.println("--- Adding patients ---");
-        list.addPatient("P07", "Bilal", 4);
+        list.addPatient("P07", " ", 4);
         list.addPatient("P18", "Hamza", 2);
         list.addPatient("P12", "Ayesha", 1);
         list.addPatient("P21", "Sara", 2);
